@@ -1,1 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .div1{
+    display: flex;
 
+}
+
+p{
+    font-size: 25px;
+}
+hr  {
+    width: 85%;
+}
+
+main div{
+    width: 80%;
+}
