@@ -17,6 +17,12 @@ main>div {
     justify-content: center;
     width: 90%;
     gap: 50px;
+    transition: 400ms;
+}
+
+main>div:hover{
+    transform: scale(1.01);
+    box-shadow: 4px 5px 1px black;
 }
 
 main>div>img {
@@ -33,6 +39,29 @@ main>div>article {
 
 h1 {
     text-align: center;
-    font-size: 100px;
-    margin: 0;
+    margin-bottom: 0;
+    font-size: 65px;
 }
+
+@media screen and (max-width: 1000px) {
+    main div {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    main>.Div2{
+        flex-direction: column-reverse;
+    }
+
+    main>div>img {
+        width: 80%;
+        height: auto;
+    }
+
+    main{
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+}
+
