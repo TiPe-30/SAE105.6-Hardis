@@ -7,7 +7,12 @@ main {
     justify-content: flex-start;
     gap: 10px;
     width: 100%;
-    height: 80em;
+    height: 82em;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
 }
 
 .marge{
@@ -28,6 +33,11 @@ main div{
     height: 65em;
     gap: 20px;
     width: 100%;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
 }
 
 aside{
@@ -51,7 +61,7 @@ main div aside img{
 
 aside:hover{
     transform: scale(1.05);
-    box-shadow: 4px 5px 1px gray;
+    box-shadow: 4px 5px 1px black;
 }
 
 aside section p {
@@ -94,20 +104,6 @@ main aside img{
         display: block;
         height: 1300px;
         flex-basis: 300px;
-    }
-
-    aside:last-child img {
-        position: relative;
-        top: 63%;
-        width: 100%;
-    }
-
-    aside section{
-        height: 200px;
-    }
-
-    aside:last-child{
-        height: 1400px;
     }
 
     main div aside img{
