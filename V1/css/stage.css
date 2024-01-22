@@ -13,12 +13,15 @@ main>div>article {
 }
 
 h1 {
-    font-size: 100px;
-    margin: 0;
+    margin-bottom: 0;
+    font-size: 65px;
+
 }
 
 #emailhardis {
     text-decoration: underline;
+    cursor: text;
+
 }
 
 main>div>img {
@@ -40,6 +43,12 @@ main>div {
     align-items: center;
     gap: 50px;
     width: 90%;
+    transition: 400ms;
+}
+
+main>div:hover {
+    transform: scale(1.01);
+    box-shadow: 4px 5px 1px black;
 }
 
 h4 {
@@ -58,6 +67,7 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 .lire-suite-label .label-text:after {
@@ -85,4 +95,28 @@ h4 {
 .lire-suite-checkbox:checked~.suite {
     max-height: 1000px;
     transition: max-height 0.5s ease-in;
+}
+
+@media screen and (max-width: 1000px) {
+    main div {
+        flex-wrap: wrap;
+    }
+    main>div{
+        justify-content: center;
+    }
+
+    main>.Div2{
+        flex-direction: column-reverse;
+    }
+
+    main>div>img {
+        width: 80%;
+        height: auto;
+    }
+
+    main{
+        height: auto;
+        padding-bottom: 100px;
+    }
+
 }
