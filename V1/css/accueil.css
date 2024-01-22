@@ -63,7 +63,7 @@ main div aside img {
 }
 
 aside:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     box-shadow: 4px 5px 1px black;
 }
 
