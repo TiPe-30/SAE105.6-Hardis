@@ -90,6 +90,89 @@ button{
     transition: 300ms;
 }
 
+footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    
+}
+footer .ligne1{
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+footer div .colone1,.colone2,.colone3{
+    padding: 30px 10px;
+    
+}
+footer div .colone3 .container{
+    border-left: 2px solid #929292 ;
+    padding-left: 30px;
+}
+footer h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #c2c2c2 ;
+}
+footer ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+footer li{
+    padding-bottom: 10px;
+}
+
+footer .ligne1 ul a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer .ligne1 ul a:hover {
+    text-decoration: underline;
+}
+
+footer .ligne1 .colone3{
+    font-size: 14px;
+    color: #929292 ;
+}
+
+
+
+
+footer .ligne2{
+    background-color: #1c1c1c;
+}
+footer .ligne2 ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+footer .ligne2 li:first-child{
+        border: none;
+}
+footer .ligne2 a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #595959;
+}
+footer .ligne2 a:hover{
+    color: #3f3f3f;
+}
+footer .ligne2 li{
+    color: #595959;
+    font-size: 16px;
+    border-left: 2px solid #595959;
+    padding: 10px 20px;
+}
+
 @media screen and (max-width: 1000px) {
     header nav {
         display: none;
