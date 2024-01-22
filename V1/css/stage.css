@@ -1,5 +1,5 @@
 main {
-    background-image: url(../img/Numerique/fond-hardis.png);
+    background-image: url(../img/Stage/fond-hardis.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 25px;
@@ -12,6 +12,15 @@ main>div>article {
     background-color: white;
 }
 
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+#emailhardis{
+    text-decoration: underline;
+}
+
 main>div>img {
     width: 500px;
     height: auto;
@@ -22,12 +31,12 @@ main {
     flex-direction: column;
     gap: 50px;
     align-items: center;
+    padding-bottom: 100px;
 }
 
-main>div{
+main>div {
     display: flex;
     flex-direction: row;
     gap: 50px;
     width: 90%;
 }
-
