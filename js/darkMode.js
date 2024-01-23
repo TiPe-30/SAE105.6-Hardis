@@ -32,6 +32,7 @@ function functionDarkMode() {
         }
     } else {
         /* Partie en mode white */
+        location.reload();
         White = true;
         bouton.style.left = "5%";
         document.querySelector("header").style.backgroundColor = "white";
