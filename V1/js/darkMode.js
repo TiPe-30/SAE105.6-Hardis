@@ -1,63 +1,68 @@
 let White = true;
 let bouton = document.querySelector("button");
 let scroller = document.querySelector("label");
-document.querySelector("header").style.transition = "300ms";
-const elementEcriture = [document.querySelector("header").querySelectorAll("a"),
-document.querySelectorAll("p"), document.querySelectorAll("h2"),
-document.querySelectorAll("h1"), document.querySelectorAll("li"), document.querySelector("footer").querySelectorAll("a")];
+/* Récupération élements header */
+const elementEcriture = document.querySelector("header").querySelectorAll("a");
+const backGroundHeader = document.querySelector("header");
+backGroundHeader.style.transition = "300ms";
+/* fin récupération élements  header */
+/* Récupération des éléments du footer */
 const backGroundFooter = document.querySelector("footer").querySelectorAll("div");
-const backGround = document.querySelectorAll("aside");
+const elementEcritureFooter = [document.querySelector("footer").querySelectorAll("a"),document.querySelector("footer").querySelectorAll("li"), document.querySelector("footer").querySelectorAll("p"),
+document.querySelector("footer").querySelectorAll("h2")];
+/* fin récupération element footer */
 
-function functionDarkMode() {
 
-    if (White) {
+function functionDarkMode(){
+    if (White){
         /* Partie en mode black */
-
         White = false;
         bouton.style.left = "62%";
-        document.querySelector("header").style.backgroundColor = "black";
         scroller.style.backgroundColor = "white";
         bouton.style.backgroundColor = "black";
-        for (let i = 0; i < elementEcriture.length; i++) {
-            for (let j = 0; j < elementEcriture[i].length; j++) {
-                elementEcriture[i][j].style.color = "white";
-            }
-        } for (let i = 0; i < backGround.length; i++) {
-            backGround[i].style.background = "black";
+        /* HEADER */
+        document.querySelector("header").style.backgroundColor = "#1c1c1c";
+        for(let i = 0; i < elementEcriture.length;i++){
+            elementEcriture[i].style.color = "white";
         }
-        /* PARTIE FOOTER */
-        for(let i = 0; i < backGroundFooter.length;i++){
-            if(backGroundFooter[i].getAttribute('class') == "ligne1" || backGroundFooter[i].getAttribute('class') == "ligne2"){
-                backGroundFooter[i].style.backgroundColor = "#1c1c1c";
-            }
-            document.querySelector("footer").querySelector("img").src = "../img/logo-hardis-footer.png";
+        /* FOOTER */
+        for(let i = 0; i< backGroundFooter.length;i++){
+            backGroundFooter[i].style.backgroundColor = "#1c1c1c";
         }
-    } else {
+        for(let i = 0; i < elementEcritureFooter.length;i++){
+            for(let j = 0; j < elementEcritureFooter[i].length;j++){
+                elementEcritureFooter[i][j].style.color = "white";
+            }
+        }
+        document.querySelector("footer").querySelector("img").src = "../img/logo-hardis-footer.png";
+        /* PAGE EN COURS */
+
+
+    }else{
         /* Partie en mode white */
         window.innerWidth < 1000 ? location.reload():location;
         White = true;
         bouton.style.left = "5%";
-        document.querySelector("header").style.backgroundColor = "white";
         scroller.style.backgroundColor = "black";
         bouton.style.backgroundColor = "white";
-        for (let i = 0; i < elementEcriture.length; i++) {
-            for (let j = 0; j < elementEcriture[i].length; j++) {
-                elementEcriture[i][j].style.color = "black";
-            }
-        } for (let i = 0; i < backGround.length; i++) {
-            backGround[i].style.background = "white";
+        /* HEADER */
+        document.querySelector("header").style.backgroundColor = "white";
+        for(let i = 0; i < elementEcriture.length;i++){
+            elementEcriture[i].style.color = "black";
         }
-        /* PARTIE FOOTER */
-        for(let i = 0; i < backGroundFooter.length;i++){
-            if(backGroundFooter[i].getAttribute('class') == "ligne1" || backGroundFooter[i].getAttribute('class') == "ligne2"){
-                backGroundFooter[i].style.backgroundColor = "white";
+        /* FOOTER */
+        for(let i = 0; i< backGroundFooter.length;i++){
+            backGroundFooter[i].style.backgroundColor = "white";
+        }
+        for(let i = 0; i < elementEcritureFooter.length;i++){
+            for(let j = 0; j < elementEcritureFooter[i].length;j++){
+                elementEcritureFooter[i][j].style.color = "black";
             }
         }
         document.querySelector("footer").querySelector("img").src = "../img/logo-hardis-group(2).png";
+        /* PAGE EN COURS */
+
+
 
     }
 }
-
-window.addEventListener("resize", function(){
-    window.innerWidth < 1000 ? location.reload():location;
-})
