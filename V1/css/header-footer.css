@@ -65,17 +65,19 @@ header nav ul li a{
 }
 
 label{
-    width: 3%;
+    position: relative;
+    margin: 10px;
+    width: 55px;
     height: 20px;
     background-color: black;
     border-radius: 10px;
 }
 
 button{
-    position: relative;
+    position: absolute;
     height: 16px;
-    left: 5%;
-    bottom: 38%;
+    left: 5px;
+    bottom: 15%;
     width: 33%;
     background-color: white;
     border-radius: 10px;
@@ -94,25 +96,50 @@ button{
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 280px;
+        flex-grow: 1;
     }
 
     #burgMenu a {
         width: 120px;
     }
 
+    #burgMenu ul li{
+        padding: 10px;
+    }
+
     #burgMenu a img {
         width: 120px;
+    }
+
+    #burgMenu ul li:hover{
+        background-color: black;
+    }
+
+    #burgMenu ul li:hover > a{
+        color: white;
+    }
+
+    #burgMenu ul li a{
+        color: black;
+    }
+
+    #burgMenu label{
+        width: 50%;
     }
 
     #burgMenu ul{
         box-sizing: border-box;
         margin: 0;
+        padding: 0;
         list-style-type: none ;
         display: flex;
+        justify-content: flex-end;
         flex-direction: column;
+        width: 100%;
     }
     #burgMenu label{
-        width: 30%;
+        width: 60px;
     }
 }
 
@@ -123,7 +150,7 @@ button{
 
 
 footer .ligne1{
-    background-color: #222222;
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -131,7 +158,6 @@ footer .ligne1{
 }
 footer div .colone1,.colone2,.colone3{
     padding: 30px 10px;
-    
 }
 footer div .colone3 .container{
     border-left: 2px solid #929292 ;
@@ -140,7 +166,7 @@ footer div .colone3 .container{
 footer h2{
     font-size: 18px;
     text-transform: uppercase;
-    color: #c2c2c2 ;
+    color: black;
 }
 footer ul{
     text-decoration: none;
@@ -154,7 +180,7 @@ footer li{
 footer .ligne1 ul a {
     font-size: 14px;
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -164,14 +190,11 @@ footer .ligne1 ul a:hover {
 
 footer .ligne1 .colone3{
     font-size: 14px;
-    color: #929292 ;
+    color:black ;
 }
 
-
-
-
 footer .ligne2{
-    background-color: #1c1c1c;
+    background-color: white;
 }
 footer .ligne2 ul{
     margin: 0;
@@ -186,13 +209,15 @@ footer .ligne2 a{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: #595959;
+    color: black;
 }
+
 footer .ligne2 a:hover{
-    color: #3f3f3f;
+    color: black;
 }
+
 footer .ligne2 li{
-    color: #595959;
+    color: black;
     font-size: 16px;
     border-left: 2px solid #595959;
     padding: 10px 20px;
