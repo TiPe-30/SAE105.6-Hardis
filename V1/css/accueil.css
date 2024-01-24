@@ -8,7 +8,8 @@ main {
     align-items: center;
     gap: 10px;
     width: 100%;
-    height: 125em;
+    height: auto;
+    padding-bottom: 100px;
 }
 
 article {
@@ -24,19 +25,22 @@ article {
     transition: 400ms;
     height: 300px;
 }
-#stage{
+
+#stage {
     height: auto;
 }
-#stage>img{
+
+#stage>img {
     width: 50%;
 }
+
 h1 {
     margin: 0;
     font-size: 65px;
 }
 
 a {
-    font-size:x-large;
+    font-size: x-large;
 }
 
 .marge {
@@ -117,6 +121,10 @@ main aside img {
         flex-basis: 550px;
     }
 
+    article {
+        height: auto;
+    }
+
     main aside img {
         width: 100%;
         height: 28em;
@@ -124,7 +132,7 @@ main aside img {
     }
 
     main {
-        height: 150em;
+        padding-bottom: 1200px;
     }
 }
 
@@ -133,9 +141,14 @@ main aside img {
         flex-direction: wrap;
     }
 
+    article {
+        height: auto;
+    }
+
+
     aside {
         display: block;
-        height: 1300px;
+        height: auto;
         flex-basis: 300px;
     }
 
@@ -145,6 +158,6 @@ main aside img {
     }
 
     main {
-        height: 200em;
+        padding-bottom: 1650px;
     }
 }
