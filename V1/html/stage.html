@@ -123,17 +123,28 @@
                     <option value="Haute-Savoie">Haute-Savoie-74</option>
                 </select>
             </div>
-            <fieldset>
+             <fieldset>
                 <legend>Niveau d'étude</legend>
-                <label for="Lycee"><input id="Lycee" type="checkbox">Lycee</label>
-                <label for="Collège"><input id="Collège" type="checkbox">Collège</label>
-                <label for="Étudiant"><input id="Étudiant" type="checkbox">Étudiant</label>
+                <input type="radio" id="Lycee" name="Autre" value="Lycee">
+                <label for="Lycee">Lycee</label>
+
+                <input type="radio" id="Collège" name="Autre" value="Collège">
+                <label for="Collège">Collège</label>
+
+                <input type="radio" id="Étudiant" name="Autre" value="Étudiant">
+                <label for="Étudiant">Étudiant</label>
             </fieldset>
             <fieldset>
                 <legend>Expertise antécédente</legend>
-                <label for="Lycee2"><input id="Lycee2" type="checkbox">Stage 3ème</label>
-                <label for="Collège2"><input id="Collège2" type="checkbox">Alternance</label>
-                <label for="Étudiant2"><input id="Étudiant2" type="checkbox">Autre...</label>
+                <input type="radio" id="3eme" name="Autre1" value="3eme">
+                <label for="3eme">Stage 3ème</label>
+
+                <input type="radio" id="Alternance" name="Autre1" value="Alternance">
+                <label for="Alternance">Alternance</label>
+
+                <input type="radio" id="Autre..." name="Autre1" value="Autre...">
+                <label for="Autre...">Autre...</label>
+
             </fieldset>
             <div>
                 <label for="bio">Ecrivez-nous : </label>
