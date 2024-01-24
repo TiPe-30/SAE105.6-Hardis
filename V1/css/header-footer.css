@@ -64,7 +64,7 @@ header nav ul li a{
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-label{
+header label{
     position: relative;
     margin: 10px;
     width: 55px;
@@ -73,7 +73,7 @@ label{
     border-radius: 10px;
 }
 
-button{
+header button{
     position: absolute;
     height: 16px;
     left: 5px;
