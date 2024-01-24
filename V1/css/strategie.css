@@ -141,7 +141,7 @@ p {
 
     .graphe .article ul,
     .graphe .article p {
-        width: 300px;
+        width: 250px;
         text-align: justify;
         margin: 0;
         padding: 0;
@@ -153,7 +153,7 @@ p {
     }
 
     .texteimage p{
-        width: 300px;
+        width: 250px;
     }
 
 }
