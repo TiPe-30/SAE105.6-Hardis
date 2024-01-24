@@ -98,7 +98,48 @@
             </article>
         </div>
     </main>
-
+<div class="formulaire">
+        <form action="traitementImaginaire.php">
+            <div>
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" placeholder="votre nom">
+            </div>
+            <div>
+                <label for="email">Email : </label>
+                <input id="email" type="text" name="email" placeholder="votre adresse email">
+            </div>
+            <div>
+                <label for="departement">Votre département : </label>
+                    <select name="departement" id="departement">
+                        <option value="Gard">Gard-30</option>
+                        <option value="Isère">Isère-38</option>
+                        <option value="Rhône">Rhône-69</option>
+                        <option value="Savoie">Savoie-73</option>
+                        <option value="Haute-Savoie">Haute-Savoie-74</option>
+                    </select>
+            </div>
+            <fieldset>
+                <legend>Niveau d'étude</legend>
+                <label for="Lycee"><input id="Lycee" type="checkbox">Lycee</label>
+                <label for="Collège"><input id="Collège" type="checkbox" >Collège</label>
+                <label for="Étudiant"><input id="Étudiant" type="checkbox" >Étudiant</label>
+            </fieldset>
+            <fieldset>
+                <legend>Expertise antécédente</legend>
+                <label for="Lycee"><input id="Lycee" type="checkbox">Stage 3ème</label>
+                <label for="Collège"><input id="Collège" type="checkbox" >Alternance</label>
+                <label for="Étudiant"><input id="Étudiant" type="checkbox" >Autre...</label>
+            </fieldset>
+            <div>
+                <label for="bio">Ecrivez-nous : </label>
+                <textarea>
+                </textarea>
+            </div>
+            <p>
+              <input type="submit" value="Envoyez">
+            </p>
+        </form>
+    </div>
     <footer>
         <div>
             <div class="ligne1">
