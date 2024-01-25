@@ -40,7 +40,7 @@ Page Numérique :(objectif temps : 45sec) QUI : Quentin
 	Preésenter l'activité, la production et les clients de manière global
 
 ------------------------------------
-Page Stage :(objectif temps : 1min) QUI : QUENTIN, formulaire : Tristan
+Page Stage :(objectif temps : 1min) QUI : QUENTIN (45sec), formulaire : Tristan (15sec)
 
 Presentation contenu :
 	Expliquer comment trouver un stage
