@@ -1,0 +1,58 @@
+PEGUIN Quentin
+PETIT Tristan
+
+HARDIS GROUP
+
+====================================
+Page d'Accueil : (objectif temps : 1min ) QUI : Tristan
+
+-présentation du header :
+	On a choisis de mettre la page d'accueil sur l'image du header
+	Il y a ensuite toute les pages de notre site, donc.... 
+	Et tout a droite la possibilité de passer en dark mode (ne pas le tester tout de suite)
+
+-Pour le contenu :
+	Evidemment en haut le titre de la page
+	Ensuite une partie sur le recrutement, but : bien diriger les élèves/personnes recherchant un travail ou un stage
+	Une présentation de Hardis sur la suite de la page
+	
+-Présentation footer:
+		L'image permet de remonter en haut de la page d'accueil
+		Les accès rapide a la page
+		Les contact de l'entrprise
+		Les créatives commons
+		
+		Bien précisé que le power by ... vient de notre hoster et ne fait pas partie intégrante du site
+
+------------------------------------
+Page Ecologie :(objectif temps : 1min) QUI : Quentin
+
+-présentation du darkmode : on passe directe en noir
+
+-présentation du contenu : 
+	on était pas tres bon en 2020 mais on a fait beaucoup d'effort et les chiffres sont bien meilleurs. Ils ne sont pas encore sorti au grand public mais rien que sur la refonte 
+	du site internet on peut voir (et montrer ecograder)
+
+------------------------------------
+Page Numérique :(objectif temps : 45sec) QUI : Quentin
+
+-Presentation du contenu :
+	Preésenter l'activité, la production et les clients de manière global
+
+------------------------------------
+Page Stage :(objectif temps : 1min) QUI : QUENTIN, formulaire : Tristan
+
+Presentation contenu :
+	Expliquer comment trouver un stage
+	montrer les avis des précédents stagiaire
+	
+preésentation du formulaire :
+	explication de tristan
+
+------------------------------------
+Page Stratégie : (objectif temps : 1min) QUI : Tristan
+
+presentation du contenu :
+	présenter très rapidement les 3 images
+
+------------------------------------
